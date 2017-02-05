@@ -2,7 +2,7 @@
 //  newramenController.swift
 //  ramen
 //
-//  Created by 石橋　琉 on 2016/12/11.
+//  Created by 石橋　琉 on 2016/12/11.////////
 //  Copyright © 2016年 石橋　琉. All rights reserved.
 //
 

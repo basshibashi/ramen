@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		E5E8D3261DFD3157006B1E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D3251DFD3157006B1E7D /* AppDelegate.swift */; };
 		E5E8D3281DFD3157006B1E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D3271DFD3157006B1E7D /* ViewController.swift */; };
-		E5E8D32B1DFD3157006B1E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E8D3291DFD3157006B1E7D /* Main.storyboard */; };
 		E5E8D32D1DFD3157006B1E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E8D32C1DFD3157006B1E7D /* Assets.xcassets */; };
 		E5E8D3301DFD3157006B1E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E8D32E1DFD3157006B1E7D /* LaunchScreen.storyboard */; };
 		E5E8D33B1DFD3158006B1E7D /* ramen2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D33A1DFD3158006B1E7D /* ramen2Tests.swift */; };
 		E5E8D3461DFD3158006B1E7D /* ramen2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D3451DFD3158006B1E7D /* ramen2UITests.swift */; };
+		E5E8D3541DFD318A006B1E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E8D3531DFD318A006B1E7D /* Main.storyboard */; };
+		E5E8D3561DFD31B9006B1E7D /* newramenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D3551DFD31B9006B1E7D /* newramenController.swift */; };
+		E5E8D3581DFD31C3006B1E7D /* ramenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D3571DFD31C3006B1E7D /* ramenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		E5E8D3221DFD3157006B1E7D /* ramen2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ramen2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E8D3251DFD3157006B1E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E8D3271DFD3157006B1E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5E8D32A1DFD3157006B1E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5E8D32C1DFD3157006B1E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E8D32F1DFD3157006B1E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E8D3311DFD3157006B1E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		E5E8D3411DFD3158006B1E7D /* ramen2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ramen2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E8D3451DFD3158006B1E7D /* ramen2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ramen2UITests.swift; sourceTree = "<group>"; };
 		E5E8D3471DFD3158006B1E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E8D3531DFD318A006B1E7D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E5E8D3551DFD31B9006B1E7D /* newramenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newramenController.swift; sourceTree = "<group>"; };
+		E5E8D3571DFD31C3006B1E7D /* ramenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ramenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				E5E8D3251DFD3157006B1E7D /* AppDelegate.swift */,
 				E5E8D3271DFD3157006B1E7D /* ViewController.swift */,
-				E5E8D3291DFD3157006B1E7D /* Main.storyboard */,
+				E5E8D3551DFD31B9006B1E7D /* newramenController.swift */,
+				E5E8D3571DFD31C3006B1E7D /* ramenController.swift */,
 				E5E8D32C1DFD3157006B1E7D /* Assets.xcassets */,
+				E5E8D3531DFD318A006B1E7D /* Main.storyboard */,
 				E5E8D32E1DFD3157006B1E7D /* LaunchScreen.storyboard */,
 				E5E8D3311DFD3157006B1E7D /* Info.plist */,
 			);
@@ -232,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E8D3541DFD318A006B1E7D /* Main.storyboard in Resources */,
 				E5E8D3301DFD3157006B1E7D /* LaunchScreen.storyboard in Resources */,
 				E5E8D32D1DFD3157006B1E7D /* Assets.xcassets in Resources */,
-				E5E8D32B1DFD3157006B1E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E8D3561DFD31B9006B1E7D /* newramenController.swift in Sources */,
 				E5E8D3281DFD3157006B1E7D /* ViewController.swift in Sources */,
 				E5E8D3261DFD3157006B1E7D /* AppDelegate.swift in Sources */,
+				E5E8D3581DFD31C3006B1E7D /* ramenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5E8D3291DFD3157006B1E7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5E8D32A1DFD3157006B1E7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5E8D32E1DFD3157006B1E7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -402,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ramen2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ramen2;
@@ -413,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ramen2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ramen2;
@@ -485,6 +487,7 @@
 				E5E8D34C1DFD3158006B1E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5E8D34D1DFD3158006B1E7D /* Build configuration list for PBXNativeTarget "ramen2Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +496,7 @@
 				E5E8D34F1DFD3158006B1E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5E8D3501DFD3158006B1E7D /* Build configuration list for PBXNativeTarget "ramen2UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				E5E8D3521DFD3158006B1E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
